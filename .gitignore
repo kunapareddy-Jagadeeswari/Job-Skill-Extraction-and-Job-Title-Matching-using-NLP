@@ -1,0 +1,61 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets (Protects local API keys and credentials)
+.streamlit/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Model files (large or generated models)
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Local vector indexes and generated embeddings
+faiss_index/
+vectorstore/
+chroma_db/
+
+# Local secrets and credentials
+secrets.json
+credentials.json
+
+
+Models/tuned_linear_svm_model.pkl
+
+# Personal downloads and unrelated datasets
+Data/Downloads/
